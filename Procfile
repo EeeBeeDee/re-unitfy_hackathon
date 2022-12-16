@@ -1,0 +1,1 @@
+web: gunicorn christmas_blend.wsgi
