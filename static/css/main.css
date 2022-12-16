@@ -1,4 +1,4 @@
-body{
+body {
     --top-row-height: 60px;
     margin: 0;
     margin-top: var(--top-row-height);
