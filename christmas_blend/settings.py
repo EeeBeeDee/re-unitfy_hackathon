@@ -30,7 +30,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['christmas-blend.herokuapp.com', 'localhost', '127.0.0.1', '127.0.0.1:8000']
+
+ALLOWED_HOSTS = ['christmas-blend-2022hack.herokuapp.com', 'localhost']
+
 
 
 # Application definition
@@ -156,4 +158,4 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-eeebeedee-reunitfyhacka-2edmsvpsdo5.ws-eu79.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-eeebeedee-reunitfyhacka-va5fq2cfnnu.ws-eu79.gitpod.io']
