@@ -1,10 +1,22 @@
 {% extends 'photos/base.html' %}
 
 {% block content %}
-
 <section class="vh-100">
     <div class="container pt-5">
-        <h1>Photo</h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <a href="{% url 'gallery' %}" class="btn btn-danger my-3">Go Back</a>
+                    <h1>HO HO HO!</h1>
+                    <div style="height: 90vh;">
+                        <img style="max-width: 100%; max-height: 100%;" src="{{photo.image.url}}">
+                        <p>{{photo.description}}</p>
+                        <p>Holiday wishes</p>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

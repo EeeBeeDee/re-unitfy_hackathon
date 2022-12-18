@@ -3,3 +3,22 @@ body {
     margin: 0;
     margin-top: var(--top-row-height);
 }
+
+
+.text-dark {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.nav {
+    text-decoration: none;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
